@@ -24,7 +24,7 @@ En base a estos hallazgos, se recomiendan las siguientes soluciones:
 
 # Herramientas utilizadas
 - Lenguaje de programación: Python
-- Bibliotecas de Python: Pandas, Matplotlib, Seaborn, Scikit-learn
+- Bibliotecas de Python: Pandas, Matplotlib, Seaborn, Scikit-learn,  imblearn
 - Herramientas de visualización: Tableau, Matplotlib, Seaborn
 - Herramientas de análisis de datos: SQL
 - Herramientas de colaboración y gestión de proyectos: GitHub
