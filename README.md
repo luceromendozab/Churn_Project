@@ -1,6 +1,8 @@
 # Proyecto de Churn en Telecomunicaciones
 Este es un proyecto de análisis de churn en una empresa de telecomunicaciones en California. La empresa proporciona servicios de telefonía e internet a sus clientes, y este proyecto analiza los datos de churn de los clientes, así como otros factores que puedan influir en el churn
 
+# Introducción 
+# Objetivos 
 # Datos
 
 Los datos de la empresa de telecomunicaciones incluyen información sobre 7043 clientes en California durante el tercer trimestre. Los datos contienen información demográfica de los clientes, puntajes de satisfacción, puntajes de churn y valores de por vida del cliente (CLTV).
