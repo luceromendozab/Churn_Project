@@ -12,7 +12,9 @@ Data: esta carpeta contiene los datos utilizados en el proyecto, incluyendo un a
 
 Notebooks: esta carpeta contiene los notebooks de Jupyter utilizados para el análisis de los datos y la generación de gráficos.
 
-Output: esta carpeta contiene los gráficos y visualizaciones generados durante el análisis.
+SQL : Contiene el modelo relacional de nuestros datos y la inserción de ellos a través de SQLalchemy desde Python. 
+
+Visualización: 
 
 # Conclusiones y soluciones
 
