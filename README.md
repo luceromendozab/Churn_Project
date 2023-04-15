@@ -41,6 +41,7 @@ En base a estos hallazgos, se recomiendan las siguientes soluciones:
     - imblearn : biblioteca de aprendizaje automático que proporciona herramientas para manejar y tratar problemas de desequilibrio de clases en conjuntos de datos.Se utilizó la combinación de sobremuestreo y  submuestreo. 
 
     - Pickle: utilizada para guardar el modelo final entrenado y su uso posterior para hacer predicciones en nuevos datos.
+    - Sqlalchemy: Proporciona un conjunto de herramientas para trabajar con bases de datos a través de una interfaz de programación de aplicaciones (API) orientada a objetos, lo que significa que se pueden crear objetos Python para representar tablas de base de datos, columnas y relaciones entre ellas. 
 
 - Herramientas de visualización: 
     -  Tableau: 
