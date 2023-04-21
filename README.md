@@ -1,18 +1,18 @@
-# Project on Churn in Telecommunications
+# Churn Project 
 ## How to Enhance Customer Retention : A Case Study Analysis
 
 ![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/churn_rate.jpeg)
 
+# Introduction
 This is a Churn analysis project for a telecommunications company in California. The company provides phone and internet services to its customers, and this project analyzes customer churn data as well as other factors that may influence it.
 
-# Introduction
 Churn refers to the rate at which customers stop doing business with a company, and is a critical metric for evaluating a company's performance. Understanding the factors that influence churn is crucial to developing strategies that retain customers and reduce losses.
 
 We have also uploaded the data to a relational database using SQLalchemy for efficient data management and created a live demo of the churn prediction using the Streamlit web interface. Our goal is to provide the company with a comprehensive solution to improve customer retention and reduce churn.
 
 # Objetives
 
-- Develop a churn predictive model in Python using machine learning techniques to assist the company in retaining its customers and reducing losses.
+- Develop a churn predictive model in Python using Machine Learning Techniques to assist the company in retaining its customers and reducing losses.
 
 - Create a live demo of the churn prediction using the Streamlit web interface, so that the company can visualize the results and take appropriate measures.
 
@@ -25,16 +25,15 @@ The telecommunications company data includes information on 7,043 customers in C
 - [Kaggle Telco customer churn](https://www.kaggle.com/datasets/ylchang/telco-customer-churn-1113)
 
 # Project structure
-Data: This folder contains the data used in the project, including the raw data and the data uses in SQL,Machine Learing and Visualization. 
+- Data: This folder contains the data used in the project, including the raw data and the data uses in SQL,Machine Learing and Visualization. 
 
-Notebooks: This folder contains Jupyter notebooks used for data analysis and the Machine Learning algorithms. 
+- Notebooks: This folder contains Jupyter notebooks used for data analysis and the Machine Learning algorithms. 
 
-SQL: Contains the relational model of our data and the insertion of data through SQLalchemy from Python.
+- SQL: Contains the relational model of our data and the insertion of data through SQLalchemy from Python.
 
 ![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/SQL/relational%20model.png)
 
-Visualization: [My Dashboard](https://public.tableau.com/app/profile/lucero.mendoza8271/viz/Churn_16817483435120/GlobalView?publish=yes) consists in 
-
+- Visualization: [My Dashboard](https://public.tableau.com/app/profile/lucero.mendoza8271/viz/Churn_16817483435120/GlobalView?publish=yes) created in Tableau shows firstly an overview of the company's revenue with the most important categories. Finally the second dashboard is focused on customers who churned and shows the most representative categories. These dashboards provide valuable insights into the company's performance and churn behavior."
 
 # Conclusions and Solutions
 
@@ -70,16 +69,16 @@ Based on these findings, we recommend the following solutions to improve custome
     - Pickle: Used for saving the final trained model and its subsequent use for making predictions on new data.
 
     -  Sqlalchemy: Provides a set of tools for working with databases through an object-oriented programming interface (API), which means that Python objects can be created to represent database tables, columns, and relationships between them.
-    - 
-
+    
+    - Streamlit: It provides a simple and intuitive interface that allows users to create web apps using Python scripts. 
 
 - Visualization Tools:
 
-    - Tableau:
+    - Tableau: A powerful data visualization tool to create interactive and dynamic visualizations from various data sources. It provides a user-friendly interface for exploring and analyzing data, and supports a wide range of chart types, from simple bar charts to complex heatmaps and geographic maps.
 
 - Data Analysis Tools:
-    - SQL:
+    - SQL: a programming language used for managing and manipulating relational databases. It allows users to retrieve, insert, update, and delete data from databases, and is essential for working with large datasets.
 
 - Collaboration and Project Management Tools:
 
-    - GitHub:
+    - GitHub: a web-based platform for version control and collaborative software development. It allows users to store and manage code repositories, track changes to code over time, and collaborate with others on software projects.
