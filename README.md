@@ -1,7 +1,7 @@
 # Churn Project 
 ## How to Enhance Customer Retention : A Case Study Analysis
 
-![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/churn_rate.jpeg)
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/Customer-Churn.png)
 
 # Introduction
 This is a Churn analysis project for a telecommunications company in California. The company provides phone and internet services to its customers, and this project analyzes customer churn data as well as other factors that may influence it.
@@ -39,6 +39,8 @@ The telecommunications company data includes information on 7,043 customers in C
 
 Our churn predictive model achieved a high accuracy rate in identifying customers who are likely to churn. We identified several key factors that significantly impact churn, such as contract type, tenure, and internet service. The model also highlighted the importance of customer satisfaction in reducing churn.
 
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/metrics.png)
+
 Based on these findings, we recommend the following solutions to improve customer retention and reduce churn:
 
 - Develop targeted marketing campaigns that focus on customers with a high likelihood of churn, offering personalized promotions and incentives.
@@ -69,7 +71,7 @@ Based on these findings, we recommend the following solutions to improve custome
     - Pickle: Used for saving the final trained model and its subsequent use for making predictions on new data.
 
     -  Sqlalchemy: Provides a set of tools for working with databases through an object-oriented programming interface (API), which means that Python objects can be created to represent database tables, columns, and relationships between them.
-    
+
     - Streamlit: It provides a simple and intuitive interface that allows users to create web apps using Python scripts. 
 
 - Visualization Tools:
