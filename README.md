@@ -62,25 +62,25 @@ Based on these findings, we recommend the following solutions to improve custome
 
     - [Matplotlib:](https://matplotlib.org/stable/index.html): Used for data visualization and distribution charts of variables.
 
-    - Seaborn: Used for visualization of variable distributions and correlations between them.
+    - [Seaborn](https://seaborn.pydata.org/) : Used for visualization of variable distributions and correlations between them.
 
-    - Scikit-learn: Used for implementation of machine learning models, feature selection, and evaluation of model performance.
+    - [Scikit-learn](https://scikit-learn.org/stable/) : Used for implementation of machine learning models, feature selection, and evaluation of model performance.
 
-    - imblearn: Machine learning library that provides tools for handling and treating class imbalance problems in data sets. Over and under-sampling combination was used.
+    - [Imblearn](https://imbalanced-learn.org/stable/): Machine learning library that provides tools for handling and treating class imbalance problems in data sets. Over and under-sampling combination was used.
 
-    - Pickle: Used for saving the final trained model and its subsequent use for making predictions on new data.
+    - [Pickle](https://docs.python.org/3/library/pickle.html) : Used for saving the final trained model and its subsequent use for making predictions on new data.
 
-    -  Sqlalchemy: Provides a set of tools for working with databases through an object-oriented programming interface (API), which means that Python objects can be created to represent database tables, columns, and relationships between them.
+    -  [Sqlalchemy](https://docs.sqlalchemy.org/en/20/) : Provides a set of tools for working with databases through an object-oriented programming interface (API), which means that Python objects can be created to represent database tables, columns, and relationships between them.
 
-    - Streamlit: It provides a simple and intuitive interface that allows users to create web apps using Python scripts. 
+    - [Streamlit](https://docs.streamlit.io/): It provides a simple and intuitive interface that allows users to create web apps using Python scripts. 
 
 - Visualization Tools:
 
     - [Tableau](https://www.tableau.com/es-es): A powerful data visualization tool to create interactive and dynamic visualizations from various data sources. It provides a user-friendly interface for exploring and analyzing data, and supports a wide range of chart types, from simple bar charts to complex heatmaps and geographic maps.
 
 - Data Analysis Tools:
-    - SQL: a programming language used for managing and manipulating relational databases. It allows users to retrieve, insert, update, and delete data from databases, and is essential for working with large datasets.
+    - [Workbench](https://dev.mysql.com/doc/workbench/en/): a programming language used for managing and manipulating relational databases. It allows users to retrieve, insert, update, and delete data from databases, and is essential for working with large datasets.
 
 - Collaboration and Project Management Tools:
 
-    - GitHub: a web-based platform for version control and collaborative software development. It allows users to store and manage code repositories, track changes to code over time, and collaborate with others on software projects.
+    - [Github](https://docs.github.com/es) GitHub: a web-based platform for version control and collaborative software development. It allows users to store and manage code repositories, track changes to code over time, and collaborate with others on software projects.
