@@ -2,6 +2,7 @@ import streamlit as st
 from src import soporte as sp
 import pandas as pd
 
+
 st.image("images/churn1.jpeg")
 
 st.header("Real Time  Prediction")
@@ -53,5 +54,34 @@ st.dataframe(df_final)
 
 pred, prob = sp.prediction_churn (df_final, sp.modelo)
 
-st.write(f"The prediction is : {pred}")
-st.write(f"The probability is : {prob}")
+
+# Agregar texto descriptivo
+if pred == 1:
+    st.write("Based on our predictive model, this customer is Likely to Churn.")
+else:
+    st.write("Based on our predictive model, this customer is Unlikely to churn.")
+
+
+#st.write(f"The prediction is : {pred}")
+#st.write(f"The probability is : {prob}")
+
+
+#Formatear la salida
+formatted_probabilities = [[round(p * 100, 2) for p in prob[0]]]
+df = pd.DataFrame(formatted_probabilities, columns=['No Churn', 'Churn'])
+df = df.applymap('{:.2f}%'.format)
+st.table(df)
+
+
+#st.write("Probabilidades:")
+#st.write("| No Churn | Churn |")
+#st.write("|----------|----------|")
+#st.write("| {}% | {}% |".format(*formatted_probabilities[0]))
+
+# Agregar visualización
+churn_probability = formatted_probabilities[0][0] / 100
+no_churn_probability = formatted_probabilities[0][1] / 100
+chart_data = { "Churn" : no_churn_probability,"No churn": churn_probability,}
+df_chart_data = pd.DataFrame.from_dict(chart_data, orient='index', columns=['Probabilidad'])
+st.write("Visualización de probabilidades:")
+st.bar_chart(df_chart_data)

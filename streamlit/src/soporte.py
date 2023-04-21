@@ -111,9 +111,9 @@ def user_input_features():
     Number_of_Dependents = st.sidebar.slider('Number of Dependents', 0,10,2)
     Number_of_Referrals = st.sidebar.slider('Number of Referrals', 0,15,0)
     Avg_Monthly_GB_Download = st.sidebar.slider('Avg Monthly GB Download', 0,100,17)
-    Total_Revenue = st.sidebar.slider('Total Revenue', 20, 15000,1024)
+    Total_Revenue = st.sidebar.slider('Total Revenue', 20, 15000,10000)
     Satisfaction_Score = st.sidebar.slider('Satisfaction Score',1,5,2)
-    CLTV = st.sidebar.slider('CLTV',2000,7000, 3026)
+    CLTV = st.sidebar.slider('CLTV',2000,7000, 5337)
    
 
     data = {'Married': married_,
