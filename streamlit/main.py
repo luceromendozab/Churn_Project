@@ -5,16 +5,16 @@ import pandas as pd
 
 st.image("images/churn1.jpeg")
 
-st.header("Real Time  Prediction")
+st.header("Real Time  Prediction ")
 st.subheader("Optimize Your Profitability")
 st.subheader("Will your customers stay or leave? Find out now!")
 
-####################################
-
+#We collect user input data.
 user_options = sp.user_input_features()
-st.dataframe(user_options)
 
+#st.dataframe(user_options)
 
+#we apply the encoding process to the categorical variables of the user dataset "user_options" and create dataframes for each one
 married_ = pd.DataFrame(sp.encoding_married.transform(user_options[["Married"]]), columns= ["Married"])
 Phone_Service_= pd.DataFrame(sp.encoding_phone_service.transform(user_options[["Phone Service"]]), columns= ["Phone Service"])
 Internet_Type_ = pd.DataFrame(sp.encoding_internet_type.transform(user_options[["Internet Type"]]), columns= ["Internet Type"])
@@ -35,10 +35,12 @@ user_options["Contract_mapeada"]= user_options["Contract"].map(sp.map_contract)
 user_options["Offer_mapeada"]= user_options["Offer"].map(sp.map_offer)
 
 user_options.drop(["Offer","Contract","Internet Type","Married","Phone Service","Online Security","Online Backup","Device Protection Plan","Premium Tech Support","Unlimited Data","Paperless Billing","Payment Method","Gender","Multiple Lines","Streaming TV","Streaming Music","Streaming Movies"], axis=1, inplace=True)
+#
 df_final = pd.concat([user_options, married_,Phone_Service_,Internet_Type_,Online_Security_,Online_Backup_,Devive_protection_plan_,Premium_Tech_Support_,Unlimited_Data_,Paperless_Billing_,Payment_Method_,Gender_,Multiple_Lines_,Streaming_TV_,Streaming_Music_,Streaming_Movies_], axis = 1)
 print(df_final.shape)
 
-nuevo_orden=['Age', 'Married', 'Number of Dependents', 'Number of Referrals',
+# We create a list with the correct order of the columns that our dataframe must have for the predictive model
+new_order=['Age', 'Married', 'Number of Dependents', 'Number of Referrals',
        'Phone Service', 'Internet Type', 'Avg Monthly GB Download',
        'Online Security', 'Online Backup', 'Device Protection Plan',
        'Premium Tech Support', 'Unlimited Data', 'Paperless Billing',
@@ -48,14 +50,20 @@ nuevo_orden=['Age', 'Married', 'Number of Dependents', 'Number of Referrals',
        'Streaming Music_No', 'Streaming Music_Yes', 'Streaming Movies_No',
        'Streaming Movies_Yes', 'Contract_mapeada', 'Offer_mapeada']
 
-df_final=df_final.reindex(columns=nuevo_orden)
+#we order the columns
+df_final=df_final.reindex(columns=new_order)
+
+st.subheader("Your chosen Data")
+# we show the dataframe
 st.dataframe(df_final)
 
-
+# we predict 
 pred, prob = sp.prediction_churn (df_final, sp.modelo)
 
 
-# Agregar texto descriptivo
+st.subheader("Prediction ")
+
+# We add a descriptive text
 if pred == 1:
     st.write("Based on our predictive model, this customer is Likely to Churn.")
 else:
@@ -66,22 +74,18 @@ else:
 #st.write(f"The probability is : {prob}")
 
 
-#Formatear la salida
+#format output
 formatted_probabilities = [[round(p * 100, 2) for p in prob[0]]]
+#create a Pandas DataFrame from this list of formatted probabilities
 df = pd.DataFrame(formatted_probabilities, columns=['No Churn', 'Churn'])
 df = df.applymap('{:.2f}%'.format)
 st.table(df)
 
 
-#st.write("Probabilidades:")
-#st.write("| No Churn | Churn |")
-#st.write("|----------|----------|")
-#st.write("| {}% | {}% |".format(*formatted_probabilities[0]))
-
-# Agregar visualización
+# Let's add a visualization
 churn_probability = formatted_probabilities[0][0] / 100
 no_churn_probability = formatted_probabilities[0][1] / 100
 chart_data = { "Churn" : no_churn_probability,"No churn": churn_probability,}
 df_chart_data = pd.DataFrame.from_dict(chart_data, orient='index', columns=['Probabilidad'])
-st.write("Visualización de probabilidades:")
+st.write("Final odds display:")
 st.bar_chart(df_chart_data)
