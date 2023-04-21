@@ -1,5 +1,7 @@
-# Proyecto de Churn en Telecomunicaciones
-![imagen](https://github.com/luceromendozab/Dashboard__Project/blob/main/images/salary.jpeg)
+# Project on Churn in Telecommunications
+## How to Enhance Customer Retention : A Case Study Analysis
+
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/churn_rate.jpeg)
 
 This is a Churn analysis project for a telecommunications company in California. The company provides phone and internet services to its customers, and this project analyzes customer churn data as well as other factors that may influence it.
 
@@ -17,7 +19,7 @@ Notebooks: This folder contains Jupyter notebooks used for data analysis and the
 
 SQL: Contains the relational model of our data and the insertion of data through SQLalchemy from Python.
 
-
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/SQL/relational%20model.png)
 
 Visualization: 
 
