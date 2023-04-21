@@ -1,53 +1,62 @@
 # Proyecto de Churn en Telecomunicaciones
-Este es un proyecto de análisis de churn en una empresa de telecomunicaciones en California. La empresa proporciona servicios de telefonía e internet a sus clientes, y este proyecto analiza los datos de churn de los clientes, así como otros factores que puedan influir en él. 
+![imagen](https://github.com/luceromendozab/Dashboard__Project/blob/main/images/salary.jpeg)
+
+This is a Churn analysis project for a telecommunications company in California. The company provides phone and internet services to its customers, and this project analyzes customer churn data as well as other factors that may influence it.
 
 # Introducción 
 # Objetivos 
-# Datos
+# Data Sources
 
-Los datos de la empresa de telecomunicaciones incluyen información sobre 7043 clientes en California durante el tercer trimestre del año. Los datos contienen información demográfica de los clientes, puntajes de satisfacción, puntajes de churn y valores de por vida del cliente (CLTV).
+The telecommunications company data includes information on 7,043 customers in California during the third quarter of the year. The data contains customer demographic information, satisfaction scores, churn scores, and customer lifetime value (CLTV) values.
 
-# Estructura del proyecto
-Data: esta carpeta contiene los datos utilizados en el proyecto, incluyendo un archivo CSV con información de clientes, como su edad, estado civil, tipo de contrato, tarifas, etc.
 
-Notebooks: esta carpeta contiene los notebooks de Jupyter utilizados para el análisis de los datos y la generación de gráficos.
+# Project structure
+Data: This folder contains the data used in the project, including the raw data and the data uses in SQL,Machine Learing and Visualization. 
 
-SQL : Contiene el modelo relacional de nuestros datos y la inserción de ellos a través de SQLalchemy desde Python. 
+Notebooks: This folder contains Jupyter notebooks used for data analysis and the Machine Learning algorithms. 
 
-Visualización: 
+SQL: Contains the relational model of our data and the insertion of data through SQLalchemy from Python.
 
-# Conclusiones y soluciones
 
-Después de analizar los datos de churn de la empresa de telecomunicaciones, se encontraron los siguientes hallazgos:
 
-- m
+Visualization: 
 
-En base a estos hallazgos, se recomiendan las siguientes soluciones:
+# Conclusions and Solutions
 
-- 
+After analyzing the telecommunications company's churn data, the following findings were found:
 
-# Herramientas utilizadas
-- Lenguaje de programación: Python
+Based on these findings, the following solutions are recommended
 
-- Bibliotecas de Python:
-    - Pandas: utilizada para la manipulación y análisis de datos en el DataFrame que contiene las características de los diamantes y sus precios.
+# Tools Used
+- Programming Language: Python
 
-    - NumPy: utilizada para la manipulación de matrices y cálculos numéricos en el preprocesamiento de los datos.
+- Python Libraries:
 
-    - Matplotlib: utilizada para la visualización de datos y gráficos de distribución de las variables.
+    - Pandas: Used for manipulation and data analysis in the DataFrame containing diamond characteristics and prices.
 
-    - Seaborn: utilizada para la visualización de distribuciones de variables y correlaciones entre ellas.
+    - NumPy: Used for matrix manipulation and numerical calculations in data preprocessing.
 
-    - Scikit-learn: utilizada para la implementación de los modelos de machine learning, selección de características y evaluación del rendimiento de los modelos.
+    - Matplotlib: Used for data visualization and distribution charts of variables.
 
-    - imblearn : biblioteca de aprendizaje automático que proporciona herramientas para manejar y tratar problemas de desequilibrio de clases en conjuntos de datos.Se utilizó la combinación de sobremuestreo y  submuestreo. 
+    - Seaborn: Used for visualization of variable distributions and correlations between them.
 
-    - Pickle: utilizada para guardar el modelo final entrenado y su uso posterior para hacer predicciones en nuevos datos.
-    - Sqlalchemy: Proporciona un conjunto de herramientas para trabajar con bases de datos a través de una interfaz de programación de aplicaciones (API) orientada a objetos, lo que significa que se pueden crear objetos Python para representar tablas de base de datos, columnas y relaciones entre ellas. 
+    - Scikit-learn: Used for implementation of machine learning models, feature selection, and evaluation of model performance.
 
-- Herramientas de visualización: 
-    -  Tableau: 
-- Herramientas de análisis de datos: 
-    - SQL: 
-- Herramientas de colaboración y gestión de proyectos: 
-    - GitHub: 
+    - imblearn: Machine learning library that provides tools for handling and treating class imbalance problems in data sets. Over and under-sampling combination was used.
+
+    - Pickle: Used for saving the final trained model and its subsequent use for making predictions on new data.
+
+    -  Sqlalchemy: Provides a set of tools for working with databases through an object-oriented programming interface (API), which means that Python objects can be created to represent database tables, columns, and relationships between them.
+    - 
+
+
+- Visualization Tools:
+
+    - Tableau:
+
+- Data Analysis Tools:
+    - SQL:
+
+- Collaboration and Project Management Tools:
+
+    - GitHub:

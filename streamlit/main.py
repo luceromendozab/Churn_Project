@@ -5,7 +5,7 @@ import pandas as pd
 
 st.image("images/churn1.jpeg")
 
-st.header("Real Time  Prediction ")
+st.markdown("<h1 style='text-align: center;'>Real Time Prediction</h1>", unsafe_allow_html=True)
 st.subheader("Optimize Your Profitability")
 st.subheader("Will your customers stay or leave? Find out now!")
 
