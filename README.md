@@ -39,7 +39,7 @@ The telecommunications company data includes information on 7,043 customers in C
 
 Our churn predictive model achieved a high accuracy rate in identifying customers who are likely to churn. We identified several key factors that significantly impact churn, such as contract type, tenure, and internet service. The model also highlighted the importance of customer satisfaction in reducing churn.
 
-![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/metrics.png)
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/metrics_.png)
 
 Based on these findings, we recommend the following solutions to improve customer retention and reduce churn:
 
