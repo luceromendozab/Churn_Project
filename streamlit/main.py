@@ -86,6 +86,7 @@ st.table(df)
 churn_probability = formatted_probabilities[0][0] / 100
 no_churn_probability = formatted_probabilities[0][1] / 100
 chart_data = { "Churn" : no_churn_probability,"No churn": churn_probability,}
-df_chart_data = pd.DataFrame.from_dict(chart_data, orient='index', columns=['Probabilidad'])
+df_chart_data = pd.DataFrame.from_dict(chart_data, orient='index', columns=['Probability'])
 st.write("Final odds display:")
 st.bar_chart(df_chart_data)
+

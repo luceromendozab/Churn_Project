@@ -56,11 +56,11 @@ Based on these findings, we recommend the following solutions to improve custome
 
 - Python Libraries:
 
-    - Pandas: Used for manipulation and data analysis in the DataFrame containing diamond characteristics and prices.
+    - [Pandas](https://pandas.pydata.org/docs/) :  Used for manipulation and data analysis in the DataFrame containing diamond characteristics and prices.
 
-    - NumPy: Used for matrix manipulation and numerical calculations in data preprocessing.
+    - [NumPy](https://numpy.org/doc/) :  Used for matrix manipulation and numerical calculations in data preprocessing.
 
-    - Matplotlib: Used for data visualization and distribution charts of variables.
+    - [Matplotlib:](https://matplotlib.org/stable/index.html): Used for data visualization and distribution charts of variables.
 
     - Seaborn: Used for visualization of variable distributions and correlations between them.
 
@@ -76,7 +76,7 @@ Based on these findings, we recommend the following solutions to improve custome
 
 - Visualization Tools:
 
-    - Tableau: A powerful data visualization tool to create interactive and dynamic visualizations from various data sources. It provides a user-friendly interface for exploring and analyzing data, and supports a wide range of chart types, from simple bar charts to complex heatmaps and geographic maps.
+    - [Tableau](https://www.tableau.com/es-es): A powerful data visualization tool to create interactive and dynamic visualizations from various data sources. It provides a user-friendly interface for exploring and analyzing data, and supports a wide range of chart types, from simple bar charts to complex heatmaps and geographic maps.
 
 - Data Analysis Tools:
     - SQL: a programming language used for managing and manipulating relational databases. It allows users to retrieve, insert, update, and delete data from databases, and is essential for working with large datasets.
