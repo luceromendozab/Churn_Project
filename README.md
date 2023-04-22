@@ -41,6 +41,10 @@ Our churn predictive model achieved a high accuracy rate in identifying customer
 
 ![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/images/metrics_.png)
 
+The "Random Forest" model was chosen as the best for this prediction, due to its high accuracy, recall, and f1-score, having a good ability to predict both positive and negative cases. This model has undergone cross-validation to minimize the risk of overfitting, and very few errors were found.
+
+On the other hand, the 'Gradient Boosting' model showed signs of overfitting and resulted in more errors."
+
 Based on these findings, we recommend the following solutions to improve customer retention and reduce churn:
 
 - Develop targeted marketing campaigns that focus on customers with a high likelihood of churn, offering personalized promotions and incentives.
