@@ -35,6 +35,8 @@ The telecommunications company data includes information on 7,043 customers in C
 
 - Visualization: [My Dashboard](https://public.tableau.com/app/profile/lucero.mendoza8271/viz/Churn_16817483435120/GlobalView?publish=yes) created in Tableau shows firstly an overview of the company's revenue with the most important categories. Finally the second dashboard is focused on customers who churned and shows the most representative categories. These dashboards provide valuable insights into the company's performance and churn behavior."
 
+- Streamlit: Creation of a live demo of the churn prediction using the Streamlit web interface. 
+
 # Conclusions and Solutions
 
 Our churn predictive model achieved a high accuracy rate in identifying customers who are likely to churn. We identified several key factors that significantly impact churn, such as contract type, tenure, and internet service. The model also highlighted the importance of customer satisfaction in reducing churn.
@@ -43,7 +45,7 @@ Our churn predictive model achieved a high accuracy rate in identifying customer
 
 The "Random Forest" model was chosen as the best for this prediction, due to its high accuracy, recall, and f1-score, having a good ability to predict both positive and negative cases. This model has undergone cross-validation to minimize the risk of overfitting, and very few errors were found.
 
-On the other hand, the 'Gradient Boosting' model showed signs of overfitting and resulted in more errors."
+On the other hand, the 'Gradient Boosting' model showed signs of overfitting and resulted in more errors.
 
 Based on these findings, we recommend the following solutions to improve customer retention and reduce churn:
 
