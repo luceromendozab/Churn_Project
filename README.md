@@ -31,7 +31,7 @@ The telecommunications company data includes information on 7,043 customers in C
 
 - SQL: Contains the relational model of our data and the insertion of data through SQLalchemy from Python.
 
-![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/SQL/relational%20model.png)
+![imagen](https://github.com/luceromendozab/Churn_Project/blob/main/SQL/1%20relational%20model.png)
 
 - Visualization: [My Dashboard](https://public.tableau.com/app/profile/lucero.mendoza8271/viz/Churn_16817483435120/GlobalView?publish=yes) created in Tableau shows firstly an overview of the company's revenue with the most important categories. Finally the second dashboard is focused on customers who churned and shows the most representative categories. These dashboards provide valuable insights into the company's performance and churn behavior."
 
